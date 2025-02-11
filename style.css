@@ -5,12 +5,13 @@
   --main-color:#ff6600;
   --second-color:#239f85;
   --text-color:#02171d;
-  --bg-color:#F4F5F8;
+  
   /* box-shaw */
   --box-shadow:2px 2px 10px 4px rgb(14 55 54 / 15%);
   }
   .container{
       height: 100%;
+     
   }
   *{
       margin: 0%;
@@ -717,6 +718,7 @@ transition: 0.2s;
             display: block;
             text-align: center;
             height: auto;
+            padding-top: 1px;
         }
         .main img{
             margin-top: 20px;
@@ -891,18 +893,6 @@ transition: 0.2s;
     opacity: 1; /* Make visible */
     transform: scale(1); /* Full size */
   }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Bounce animation */
 @keyframes bounce {
